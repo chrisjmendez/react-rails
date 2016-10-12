@@ -4,9 +4,9 @@
 # http://tutorials.jumpstartlab.com/topics/systems/automation.html
 
 namespace :server do  
-  desc %Q{ ›› Run Rails while monitoring /app, /config }
+  desc %Q{ ›› Run Rails while monitoring /app/models, /app/controllers, /config }
   task :start do
-    sh %{ rerun --dir config,app rails s  }
+    sh %{ rerun --dir config,app/models,app/controllers rails s  }
   end
 
   desc %Q{ ›› Get the PID of the server }
@@ -34,3 +34,4 @@ namespace :server do
     Rails.logger     = logger
   end
 end
+

@@ -12,6 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+  
+//CHANGED - START
 //= require react
+// ujs is a helper with methods like react_component
 //= require react_ujs
+//CHANGED - END
+  
 //= require_tree .

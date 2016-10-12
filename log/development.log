@@ -1076,3 +1076,708 @@ Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476b
 
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-07-01 13:35:48 -0700
+  [1m[36m (3.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (0.9ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for ::1 at 2016-10-11 09:08:12 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 394ms (Views: 394.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-11 09:08:12 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 09:08:12 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-10-11 09:08:12 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-10-11 09:08:12 -0700
+
+
+Started GET "/assets/development/react.self-bf407d871f2396ec7dcba5eb91bd3f3955401699aef9b87f48b6e1694c24a078.js?body=1" for ::1 at 2016-10-11 09:08:12 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 09:08:12 -0700
+
+
+Started GET "/assets/application.self-2dca7b330b2bcd27e630aef9f84de48c5983c5830ef7807f09507201d41c20b4.js?body=1" for ::1 at 2016-10-11 09:08:12 -0700
+
+
+Started GET "/assets/components.self-54be6214fd1cdb6939a851fa5c1752470ae6c89e91e19cb3849a63b255649111.js?body=1" for ::1 at 2016-10-11 09:08:12 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-10-11 09:08:12 -0700
+
+
+Started GET "/" for ::1 at 2016-10-11 09:08:13 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-10-11 09:08:13 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 09:08:13 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-10-11 09:08:13 -0700
+
+
+Started GET "/assets/components.self-54be6214fd1cdb6939a851fa5c1752470ae6c89e91e19cb3849a63b255649111.js?body=1" for ::1 at 2016-10-11 09:08:13 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 09:08:13 -0700
+
+
+Started GET "/assets/development/react.self-bf407d871f2396ec7dcba5eb91bd3f3955401699aef9b87f48b6e1694c24a078.js?body=1" for ::1 at 2016-10-11 09:08:13 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-10-11 09:08:13 -0700
+
+
+Started GET "/assets/application.self-2dca7b330b2bcd27e630aef9f84de48c5983c5830ef7807f09507201d41c20b4.js?body=1" for ::1 at 2016-10-11 09:08:13 -0700
+
+
+Started GET "/" for ::1 at 2016-10-11 09:08:58 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 212ms (Views: 212.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 09:08:59 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 09:08:59 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-10-11 09:08:59 -0700
+
+
+Started GET "/assets/development/react.self-bf407d871f2396ec7dcba5eb91bd3f3955401699aef9b87f48b6e1694c24a078.js?body=1" for ::1 at 2016-10-11 09:08:59 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2016-10-11 09:08:59 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-10-11 09:08:59 -0700
+
+
+Started GET "/assets/components.self-54be6214fd1cdb6939a851fa5c1752470ae6c89e91e19cb3849a63b255649111.js?body=1" for ::1 at 2016-10-11 09:08:59 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-10-11 09:08:59 -0700
+
+
+Started GET "/assets/application.self-acc0a1e4342760f04dd67734d52e00859e4b1e8cbbfa808a2e03ed06c533d12b.js?body=1" for ::1 at 2016-10-11 09:08:59 -0700
+
+
+Started GET "/" for ::1 at 2016-10-11 09:13:32 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 1130ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: unknown: Adjacent JSX elements must be wrapped in an enclosing tag (5:6)
+  3 | 		return (
+  4 | 			<h1>Header 1</h1>
+> 5 |       <p>This data proves that we can remain SEO friendly.</p>
+    |       ^
+  6 | 		);
+  7 | 	}
+  8 | }):
+    2: <html>
+    3: <head>
+    4:   <title>MyReactRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3961150567792749737_70271019890000'
+
+
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.2ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (60.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (310.0ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (365.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-11 09:13:38 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 513ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: unknown: Adjacent JSX elements must be wrapped in an enclosing tag (5:6)
+  3 | 		return (
+  4 | 			<h1>Header 1</h1>
+> 5 |       <p>This data proves that we can remain SEO friendly.</p>
+    |       ^
+  6 | 		);
+  7 | 	}
+  8 | }):
+    2: <html>
+    3: <head>
+    4:   <title>MyReactRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3961150567792749737_70271019890000'
+
+
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.1ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (87.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-11 09:13:40 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 515ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: unknown: Adjacent JSX elements must be wrapped in an enclosing tag (5:6)
+  3 | 		return (
+  4 | 			<h1>Header 1</h1>
+> 5 |       <p>This data proves that we can remain SEO friendly.</p>
+    |       ^
+  6 | 		);
+  7 | 	}
+  8 | }):
+    2: <html>
+    3: <head>
+    4:   <title>MyReactRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3961150567792749737_70271019890000'
+
+
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (48.8ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.8ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (88.5ms)
+
+
+Started GET "/" for ::1 at 2016-10-11 09:14:18 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 509ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: unknown: Adjacent JSX elements must be wrapped in an enclosing tag (4:20)
+  2 | 	render(){
+  3 | 		return (
+> 4 | 			<h1>Header 1</h1><p>This data proves that we can remain SEO friendly.</p>
+    |                     ^
+  5 | 		);
+  6 | 	}
+  7 | }):
+    2: <html>
+    3: <head>
+    4:   <title>MyReactRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3961150567792749737_70271019890000'
+
+
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (54.0ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.8ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (89.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-11 09:14:36 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 811ms (Views: 811.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 09:14:37 -0700
+
+
+Started GET "/assets/components.self-12647da85d0210ab6302cc241bfa5f83e96499e5c5bd24d7025cebd25fcc9bf4.js?body=1" for ::1 at 2016-10-11 09:14:37 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 09:14:37 -0700
+
+
+Started GET "/assets/application.self-d1c6c91758479b7ce3de6ed1a3a15c91bfa437e45042b787228de78efb9729bf.js?body=1" for ::1 at 2016-10-11 09:14:37 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-10-11 09:14:37 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-10-11 09:14:37 -0700
+
+
+Started GET "/assets/development/react.self-bf407d871f2396ec7dcba5eb91bd3f3955401699aef9b87f48b6e1694c24a078.js?body=1" for ::1 at 2016-10-11 09:14:37 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2016-10-11 09:14:37 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-10-11 09:14:37 -0700
+
+
+Started GET "/" for ::1 at 2016-10-11 09:14:58 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 706ms (Views: 705.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components.self-443dadfe2f26857ed42c7e17b76a117e79ab38aef31a0f03cb0a24e97a369dec.js?body=1" for ::1 at 2016-10-11 09:14:59 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-10-11 09:14:59 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-10-11 09:14:59 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 09:14:59 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 09:14:59 -0700
+
+
+Started GET "/assets/development/react.self-bf407d871f2396ec7dcba5eb91bd3f3955401699aef9b87f48b6e1694c24a078.js?body=1" for ::1 at 2016-10-11 09:14:59 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2016-10-11 09:14:59 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-10-11 09:14:59 -0700
+
+
+Started GET "/assets/application.self-d1c6c91758479b7ce3de6ed1a3a15c91bfa437e45042b787228de78efb9729bf.js?body=1" for ::1 at 2016-10-11 09:14:59 -0700
+
+
+Started GET "/" for ::1 at 2016-10-11 09:16:58 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/ttrojan/Desktop/react-rails/app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting =>
+...rops: {}, { prerender: true } ) );@output_buffer.safe_append...
+...                               ^
+/Users/ttrojan/Desktop/react-rails/app/views/home/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/ttrojan/Desktop/react-rails/app/views/home/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting =>
+  app/views/home/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/home/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.2ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.4ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (323.0ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (372.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-11 09:17:04 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/ttrojan/Desktop/react-rails/app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting =>
+...rops: {}, { prerender: true } ) );@output_buffer.safe_append...
+...                               ^
+/Users/ttrojan/Desktop/react-rails/app/views/home/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/ttrojan/Desktop/react-rails/app/views/home/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting =>
+  app/views/home/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/home/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.0ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.0ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ttrojan/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (89.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-11 09:17:43 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 289ms (Views: 288.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/development/react.self-bf407d871f2396ec7dcba5eb91bd3f3955401699aef9b87f48b6e1694c24a078.js?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/components.self-443dadfe2f26857ed42c7e17b76a117e79ab38aef31a0f03cb0a24e97a369dec.js?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/application.self-d1c6c91758479b7ce3de6ed1a3a15c91bfa437e45042b787228de78efb9729bf.js?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/" for ::1 at 2016-10-11 09:17:43 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/development/react.self-bf407d871f2396ec7dcba5eb91bd3f3955401699aef9b87f48b6e1694c24a078.js?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/components.self-443dadfe2f26857ed42c7e17b76a117e79ab38aef31a0f03cb0a24e97a369dec.js?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/assets/application.self-d1c6c91758479b7ce3de6ed1a3a15c91bfa437e45042b787228de78efb9729bf.js?body=1" for ::1 at 2016-10-11 09:17:43 -0700
+
+
+Started GET "/" for ::1 at 2016-10-11 10:22:10 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1617ms (Views: 1616.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 10:22:12 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 10:22:12 -0700
+
+
+Started GET "/assets/components.self-fe98c92eb833b28ed6febd6ea0165b9bbc1ed7389e9a4e9a3c1b5ef00d3facdf.js?body=1" for ::1 at 2016-10-11 10:22:12 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-10-11 10:22:12 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2016-10-11 10:22:12 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-10-11 10:22:12 -0700
+
+
+Started GET "/assets/development/react.self-bf407d871f2396ec7dcba5eb91bd3f3955401699aef9b87f48b6e1694c24a078.js?body=1" for ::1 at 2016-10-11 10:22:12 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-10-11 10:22:12 -0700
+
+
+Started GET "/assets/application.self-d1c6c91758479b7ce3de6ed1a3a15c91bfa437e45042b787228de78efb9729bf.js?body=1" for ::1 at 2016-10-11 10:22:12 -0700
+
+
+Started GET "/" for ::1 at 2016-10-11 10:22:20 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 10:22:20 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-10-11 10:22:20 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-10-11 10:22:20 -0700
+
+
+Started GET "/assets/development/react.self-bf407d871f2396ec7dcba5eb91bd3f3955401699aef9b87f48b6e1694c24a078.js?body=1" for ::1 at 2016-10-11 10:22:20 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 10:22:20 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2016-10-11 10:22:20 -0700
+
+
+Started GET "/assets/components.self-fe98c92eb833b28ed6febd6ea0165b9bbc1ed7389e9a4e9a3c1b5ef00d3facdf.js?body=1" for ::1 at 2016-10-11 10:22:20 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-10-11 10:22:20 -0700
+
+
+Started GET "/assets/application.self-d1c6c91758479b7ce3de6ed1a3a15c91bfa437e45042b787228de78efb9729bf.js?body=1" for ::1 at 2016-10-11 10:22:20 -0700
+
+
+Started GET "/" for ::1 at 2016-10-11 10:32:35 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 838ms (Views: 837.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 10:32:36 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-10-11 10:32:36 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 10:32:36 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2016-10-11 10:32:36 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-10-11 10:32:36 -0700
+
+
+Started GET "/assets/development/react.self-bf407d871f2396ec7dcba5eb91bd3f3955401699aef9b87f48b6e1694c24a078.js?body=1" for ::1 at 2016-10-11 10:32:36 -0700
+
+
+Started GET "/assets/components.self-fe98c92eb833b28ed6febd6ea0165b9bbc1ed7389e9a4e9a3c1b5ef00d3facdf.js?body=1" for ::1 at 2016-10-11 10:32:36 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-10-11 10:32:36 -0700
+
+
+Started GET "/assets/application.self-d1c6c91758479b7ce3de6ed1a3a15c91bfa437e45042b787228de78efb9729bf.js?body=1" for ::1 at 2016-10-11 10:32:36 -0700
+
+
+Started GET "/" for ::1 at 2016-10-11 10:32:53 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 33ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 10:32:53 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-10-11 10:32:53 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 10:32:53 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-10-11 10:32:53 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2016-10-11 10:32:53 -0700
+
+
+Started GET "/assets/development/react.self-bf407d871f2396ec7dcba5eb91bd3f3955401699aef9b87f48b6e1694c24a078.js?body=1" for ::1 at 2016-10-11 10:32:53 -0700
+
+
+Started GET "/assets/components.self-fe98c92eb833b28ed6febd6ea0165b9bbc1ed7389e9a4e9a3c1b5ef00d3facdf.js?body=1" for ::1 at 2016-10-11 10:32:53 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-10-11 10:32:53 -0700
+
+
+Started GET "/assets/application.self-d1c6c91758479b7ce3de6ed1a3a15c91bfa437e45042b787228de78efb9729bf.js?body=1" for ::1 at 2016-10-11 10:32:53 -0700
+
+
+Started GET "/" for ::1 at 2016-10-11 12:23:07 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 20ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 12:23:07 -0700
+
+
+Started GET "/assets/development/react.self-bf407d871f2396ec7dcba5eb91bd3f3955401699aef9b87f48b6e1694c24a078.js?body=1" for ::1 at 2016-10-11 12:23:07 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-10-11 12:23:07 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 12:23:07 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2016-10-11 12:23:07 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-10-11 12:23:07 -0700
+
+
+Started GET "/assets/components.self-fe98c92eb833b28ed6febd6ea0165b9bbc1ed7389e9a4e9a3c1b5ef00d3facdf.js?body=1" for ::1 at 2016-10-11 12:23:07 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-10-11 12:23:07 -0700
+
+
+Started GET "/assets/application.self-d1c6c91758479b7ce3de6ed1a3a15c91bfa437e45042b787228de78efb9729bf.js?body=1" for ::1 at 2016-10-11 12:23:07 -0700
+
+
+Started GET "/" for ::1 at 2016-10-11 12:27:30 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 12:27:30 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2016-10-11 12:27:30 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 12:27:30 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-10-11 12:27:30 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-10-11 12:27:30 -0700
+
+
+Started GET "/assets/development/react.self-bf407d871f2396ec7dcba5eb91bd3f3955401699aef9b87f48b6e1694c24a078.js?body=1" for ::1 at 2016-10-11 12:27:30 -0700
+
+
+Started GET "/assets/components.self-fe98c92eb833b28ed6febd6ea0165b9bbc1ed7389e9a4e9a3c1b5ef00d3facdf.js?body=1" for ::1 at 2016-10-11 12:27:30 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-10-11 12:27:30 -0700
+
+
+Started GET "/assets/application.self-d1c6c91758479b7ce3de6ed1a3a15c91bfa437e45042b787228de78efb9729bf.js?body=1" for ::1 at 2016-10-11 12:27:30 -0700
+
+
+Started GET "/" for ::1 at 2016-10-11 13:37:55 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 13:37:55 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-10-11 13:37:55 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-10-11 13:37:55 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 13:37:55 -0700
+
+
+Started GET "/assets/development/react.self-bf407d871f2396ec7dcba5eb91bd3f3955401699aef9b87f48b6e1694c24a078.js?body=1" for ::1 at 2016-10-11 13:37:55 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2016-10-11 13:37:55 -0700
+
+
+Started GET "/assets/components.self-fe98c92eb833b28ed6febd6ea0165b9bbc1ed7389e9a4e9a3c1b5ef00d3facdf.js?body=1" for ::1 at 2016-10-11 13:37:55 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-10-11 13:37:55 -0700
+
+
+Started GET "/assets/application.self-d1c6c91758479b7ce3de6ed1a3a15c91bfa437e45042b787228de78efb9729bf.js?body=1" for ::1 at 2016-10-11 13:37:55 -0700
+
+
+Started GET "/" for ::1 at 2016-10-11 15:47:27 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 15:47:27 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-10-11 15:47:27 -0700
+
+
+Started GET "/assets/development/react.self-bf407d871f2396ec7dcba5eb91bd3f3955401699aef9b87f48b6e1694c24a078.js?body=1" for ::1 at 2016-10-11 15:47:27 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-10-11 15:47:27 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 15:47:27 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2016-10-11 15:47:27 -0700
+
+
+Started GET "/assets/components.self-fe98c92eb833b28ed6febd6ea0165b9bbc1ed7389e9a4e9a3c1b5ef00d3facdf.js?body=1" for ::1 at 2016-10-11 15:47:27 -0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-10-11 15:47:27 -0700
+
+
+Started GET "/assets/application.self-d1c6c91758479b7ce3de6ed1a3a15c91bfa437e45042b787228de78efb9729bf.js?body=1" for ::1 at 2016-10-11 15:47:27 -0700
