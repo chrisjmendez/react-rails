@@ -1,0 +1,31 @@
+{
+  "name": "react-rails",
+  "version": "1.0.0",
+  "description": "A marriage between react and ruby on rails.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisjmendez/react-rails.git"
+  },
+  "author": "Chris Mendez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisjmendez/react-rails/issues"
+  },
+  "homepage": "https://github.com/chrisjmendez/react-rails#readme",
+  "devDependencies": {
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5"
+  }
+}

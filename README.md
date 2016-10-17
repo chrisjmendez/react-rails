@@ -113,5 +113,23 @@ Create a Main.jx file.
 nano app/assets/javascripts/main.jsx
 ```
 
+--- 
+
+
+# Webpack
+
+Webpack is a module bundler that will allow us to places our files into an isolated scope. The goal is to allow you to organize your code into single ClassName.jsx and stitch them together without having to place all the code into a single file.  It also allows you to do this without having to place all the Javascript into the top-level global scope.
+
+**Step 1**
+Use webpack to compile all of your code into a single file
+
+**Step 2**
+Load the Webpack bundle into the asset pipeline for rendering.
+
+
+
+```language-powerbash
+npm install -g webpack
+```
 
 

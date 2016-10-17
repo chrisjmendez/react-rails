@@ -4,7 +4,7 @@
 # http://tutorials.jumpstartlab.com/topics/systems/automation.html
 
 namespace :server do  
-  desc %Q{ ›› Run Rails while monitoring /app/models, /app/controllers, /config }
+  desc %Q{ ›› File Watching (no Javascript). Monitoring /app/models, /app/controllers, /config }
   task :start do
     sh %{ rerun --dir config,app/models,app/controllers rails s  }
   end
@@ -19,7 +19,7 @@ namespace :server do
     @pid = args[:pid]
     sh %{ set -e }
     sh %{ kill -9 #{@pid} }
-    sh %{ rm -rf ./tmp/pids/server.pid }    
+    sh %{ rm -rf ./tmp/pids/server.pid } 
   end
     
   desc %Q{ ›› Remove rails detached server }

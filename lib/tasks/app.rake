@@ -7,7 +7,7 @@ namespace :app do
     sh %{ rake db:create }
     sh %{ READ THIS: Insert the commands in 'insert_into_application()' into config/application.rb }
     sh %{ rails g scaffold_controller Home index }
-    sh %{  }
+    sh %{ rake webpack:compile }
     sh %{  }
     sh %{  }
   end
