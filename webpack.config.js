@@ -12,18 +12,14 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
-  // "Add presets option to Babel-loader"
-  //http://stackoverflow.com/questions/33460420/babel-loader-jsx-syntaxerror-unexpected-token?answertab=votes#tab-top
-  //http://stackoverflow.com/questions/33509770/react-babel-webpack-not-parsing-jsx-code
-  //http://stackoverflow.com/questions/33460420/babel-loader-jsx-syntaxerror-unexpected-token
   exclude: /node_modules/,
   module: {
-    //C. Since we're dealing with ES6, we need to configure Babel loader
+    //D. Since we're dealing with ES6, we need to configure Babel loader
     loaders: [{ 
       test: /\.jsx$/, 
       loader: "babel-loader" ,
       query: {
-        presets:['es2015', 'react']
+        presets:['react']
       }
     }]
   },
