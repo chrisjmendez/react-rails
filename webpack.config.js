@@ -1,3 +1,4 @@
+
 // Source: https://webpack.github.io/docs/tutorials/getting-started#config-file
 module.exports = {
   //A. This points to the new directory for your main.jsx
@@ -25,6 +26,7 @@ module.exports = {
   },
   externals: {
     // Don't bundle the 'react' npm package with the component.
-    'react': 'React'
+    //'react': 'React'
+    React: 'react'
   }
 };

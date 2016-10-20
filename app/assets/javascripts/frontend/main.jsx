@@ -1,4 +1,4 @@
-import Greet from './greet';
+import Greet from './greet.jsx';
 
 class Main extends React.Component {
 	render(){
@@ -8,6 +8,7 @@ class Main extends React.Component {
 	}
 }
 
+
 let documentReady = () => {
 	//Render the Main class on #react
 	ReactDOM.render(
@@ -15,5 +16,6 @@ let documentReady = () => {
 		document.getElementById('react')
 	)
 };
+
 
 $(documentReady);

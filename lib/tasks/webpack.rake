@@ -12,6 +12,6 @@ namespace :webpack do
   
   desc %Q{ ›› Webpack - Watch Files }
   task watch: :environment do
-    sh %{ webpack -w }
+    sh %{ webpack -w -d }
   end  
 end
